@@ -1,5 +1,5 @@
 # Typst translator
-This is a small tool for translating typst documents with libretranslate. This is at the moment used to translate protocols into English.
+This is a small tool for translating typst documents with libretranslate. This is at the moment used to translate protocols for the TU Dortmund StuPa into English. Feel free to customize this for your needs
 
 ## Usage 
 Install the binary with `cargo install --path .`

@@ -1,0 +1,3 @@
+Ich möchte zwei benachbarte nodes miteinander kombinieren. Dazu muss ich folgende Informationen beachten:
+Der Vector text_nodes muss verändert werden -- Ich nutze daraus die ranges um die texte zu modifizieren. Wenn ich zwei ranges miteinander kombiniere dann verändert sich die Gesamtzahl an Ranges und ich fange an die falschen Texte zu ersetzen. Ich sollte also die Ranges extrahieren und am Ende durch die ranges iterieren bzw. durch die ranges mit ihrem jeweiligen offset.
+Was ich also mache: translate text with alternatives erhält einen Vector mit ranges (?) Es erhält die möglichkeit diesen vector so zu verändern, dass range i vom anfang von range i zum ende von range i+1 geht und das range i+1 aus dem vector gelöscht wird
